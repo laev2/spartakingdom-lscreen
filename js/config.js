@@ -41,9 +41,10 @@ var l_background = "backgrounds/videos/glimmering.webm";
 Place one or more images
 Multiple images will automatically shuffle between them*/
 var l_bgImages = [
-	"backgrounds/images/touhou01.jpg",
-	"backgrounds/images/touhou02.jpg",
-	"backgrounds/images/touhou03.jpg"
+	"backgrounds/images/1.jpg",
+	"backgrounds/images/2.jpg",
+	"backgrounds/images/3.jpg",
+	"backgrounds/images/4.jpg"
 ];
 
 /*Random background images order?*/
@@ -76,8 +77,8 @@ var l_musicDisplay = true;
 /*Music playlist
 Place how much Youtube IDs/.ogg you want*/
 var l_musicPlaylist = [
-	{ogg: "songs/citizen.ogg"}
-	{ogg: "songs/GTA 4 Loading Screen Theme HD.ogg"}
+	{ogg: "songs/citizen.ogg"},
+	{ogg: "songs/GTA 4 Loading Screen Theme HD.ogg"},
 	{youtube: "BJIMJmevTk0"},
 	{youtube: "PxnUR6VPOOw"},
 	{youtube: "8jjoBC0C8mw"},
@@ -97,7 +98,7 @@ var l_musicPlaylist = [
 ];
 
 /*Random music order?*/
-var l_musicRandom = false;
+var l_musicRandom = true;
 
 /*Music volume
 Choose a value between 0 and 100*/
@@ -117,7 +118,7 @@ var l_messages = [
 ];
 
 /*Random message order?*/
-var l_messagesRandom = true;
+var l_messagesRandom = false;
 
 /*Delay between message changes
 in milliseconds*/
